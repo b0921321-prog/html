@@ -1,1 +1,46 @@
-# html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login Page</title>
+</head>
+<body>
+
+<h2 align="center">Student Login Page</h2>
+
+<form>
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Username:</label><br>
+    <input type="text" name="username"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <label>Select Course:</label><br>
+    <select>
+        <option>BCA</option>
+        <option>B.Sc</option>
+        <option>B.Com</option>
+        <option>B.Tech</option>
+    </select><br><br>
+
+    <label>Remember Me</label>
+    <input type="checkbox"><br><br>
+
+    <input type="submit" value="Login">
+    <input type="reset" value="Clear">
+
+</form>
+
+<p>
+    <a href="#">Forgot Password?</a><br>
+    <a href="#">Create New Account</a>
+</p>
+
+</body>
+</html>
